@@ -23,9 +23,16 @@ python ./venv/share/kivy-examples/camera/main.py
 If it crashes, try:
 
 ```bash
-sudo apt-get install python3-opencv
+sudo apt install -y python3-opencv
 pip install opencv-python
 ```
+
+If `gstreamer` is needed (This is NOT required on Linux [https://kivy.org/doc/stable/gettingstarted/installation.html#installing-kivy-s-dependencies]):
+
+```bash
+sudo apt install -y libgstreamer-opencv1.0-0 libgstreamer1.0-0 libgstreamer1.0-dev 
+```
+
 
 ## List of examples
 
