@@ -11,6 +11,7 @@ sudo apt install python3.7 python3.7-dev python3.7-venv -y
 
 python3.7 -m venv venv
 . ./venv/bin/activate
+pip install --upgrade pip
 pip install -r requirements.txt
 ```
 
