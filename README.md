@@ -23,6 +23,7 @@ python ./venv/share/kivy-examples/camera/main.py
 If it crashes, try:
 
 ```bash
+sudo apt-get install python3-opencv
 pip install opencv-python
 ```
 
