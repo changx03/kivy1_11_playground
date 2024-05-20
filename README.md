@@ -44,3 +44,4 @@ sudo apt install -y libgstreamer-opencv1.0-0 libgstreamer1.0-0 libgstreamer1.0-d
 5. Kv script: `AsyncImage`
 6. Kv script: Inherent classes
 7. Kv script: zip file (sequence of images) as background
+8. Handle exception when camera is not connected
