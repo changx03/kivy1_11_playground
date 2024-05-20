@@ -1,0 +1,21 @@
+[build-system]
+requires = ["setuptools>=42", "wheel", "build"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "kivy_demo"
+version = "0.1.0"
+description = "A demo project using Kivy and other dependencies"
+authors = [
+    { name = "Luke Chang", email = "luke.x.chang@gmail.com" }
+]
+requires-python = ">=3.7"
+dependencies = [
+    "Kivy-examples==1.11.1",
+    "Kivy==1.11.1",
+    "opencv-python==4.9.0.80",
+    "pygame==2.5.2"
+]
+
+[tool.setuptools.package-data]
+"*" = ["*.kv", "*.zip", "*.png", "*.jpg"]

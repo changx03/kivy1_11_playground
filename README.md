@@ -57,6 +57,15 @@ If it crashes, try:
 pip install opencv-python
 ```
 
+## Build project
+
+```bash
+python -m build
+
+# install the package from wheel
+pip install ./dist/kivy_demo-0.1.0-py3-none-any.whl
+```
+
 ## List of examples
 
 1. Hello world (`Label`)
